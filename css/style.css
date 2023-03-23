@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    color: #272322;
+}
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+ol,
+ul,
+menu {
+    list-style: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+a,
+button {
+    cursor: revert;
+}
+
+body {
+    background-color: #DFD7D1;
+}
+
+/* NAVBAR */
+
+header {
+    background-color: #9997C0;
+
+    height: 80px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    color: black;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    margin: 0px 5rem
+}
+
+q .menu li a {
+    color: rgb(0, 0, 0);
+
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #315937;
+
+}
+
+header .btn {
+    background-color: #ffffff;
+    border-color: #315937;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+/* WELCOME */
+
+.home {
+    width: 1300px;
+    height: 570px;
+    margin: 60px auto;
+}
+
+.home .welcome {
+    background-color: #5c5b5c33;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome .text {
+    width: 480;
+    margin: 0px 150px;
+}
+
+
+.welcome .text h3 {
+    margin: 15px 0;
+
+}
+
+.welcome .text h1 {
+    margin: 10px 0;
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1.6s steps(19) infinite alternate;
+}
+
+.welcome p {
+    margin-top: 5px;
+}
+
+.welcome img {
+    width: auto;
+    height: 400px;
+}
+
+
+.home .skills {
+    background-color: #E5E5E5;
+    margin: 40px;
+    padding: 20px 0;
+
+}
+
+.skills .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons img {
+    margin: 0 20px;
+}
+
+/* ABOUT ME */
+
+.aboutMe {
+    background-color: #5c5b5c33;
+    margin: 30px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe h2 {
+    margin: 0 50px;
+}
+
+.aboutMe p {
+    width: 900px;
+    line-height: 21px;
+}
+
+.studies {
+    background-color: #5c5b5c33;
+    margin: 30px;
+    padding: 20px;
+
+}
+
+.studies h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.studies .cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+
+}
+
+.studies .cards .card {
+    background-color: white;
+    width: 200px;
+    height: 200PX;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* JOBS */
+.jobs {
+    background-color: #5c5b5c33;
+    width: auto;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.jobs .cards {
+    padding: 40px;
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.jobs .cards .card {
+    background-color: white;
+    width: 300px;
+    height: 200PX;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CONTACT ME  */
+
+.contactMe {
+    background-color: #5c5b5c33;
+    margin: 30px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contactMe form {
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+.contactMe .form-input {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    transition: all 0.3s;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.contactMe textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #E5E5E5;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
